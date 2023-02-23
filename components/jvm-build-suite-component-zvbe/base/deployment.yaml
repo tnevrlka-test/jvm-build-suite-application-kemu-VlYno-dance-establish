@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-zvbe
     spec:
       containers:
-      - image: quay.io/rh_ee_tnevrlka/test-images:645f5c4cdc5d4fa2ad26c16e402a32cd
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:4e1767ea1b01a644cb4ac46ec849d07b6fe3861f3e16603e27a3fe59a9eddc67
         imagePullPolicy: Always
         livenessProbe:
           httpGet:

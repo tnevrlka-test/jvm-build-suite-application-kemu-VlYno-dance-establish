@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: jvm-build-suite-component-zvbe
     app.kubernetes.io/part-of: jvm-build-suite-application-kemu
-  name: jvm-build-suite-componentjydj
+  name: jvm-build-suite-componenty3zj
   namespace: jvm-build-gkox-tenant
 spec:
   port:
