@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-zvbe
+  namespace: jvm-build-gkox-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:4e1767ea1b01a644cb4ac46ec849d07b6fe3861f3e16603e27a3fe59a9eddc67
+        name: container-image
+        resources: {}
+status: {}
